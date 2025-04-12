@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="dplus-logo"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <!-- 橙色渐变定义 -->
+  <defs>
+    <linearGradient
+       id="orange-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#ff9500"
+         id="gradient-start" />
+      <stop
+         offset="100%"
+         stop-color="#ff5500"
+         id="gradient-end" />
+    </linearGradient>
+  </defs>
+  <!-- D+ 标志 -->
+  <g
+     id="dplus-symbol">
+    <!-- D 字母 -->
+    <path
+       d="M 100,100 C 120,150 120,350 100,400 L 200,400 C 320,400 360,320 360,250 C 360,180 320,100 200,100 L 100,100 Z M 180,130 C 230,240 230,260 180,370 C 190,280 190,220 180,130 Z M 201,180 L 210,180 C 250,180 280,210 280,250 C 280,290 250,320 210,320 L 201,320 C 210,280 210,220 201,180 Z"
+       id="letter-d"
+       fill="url(#orange-gradient)" />
+    <!-- + 符号 -->
+    <path
+       d="M 320,60 L 370,60 L 370,20 L 400,20 L 400,60 L 450,60 L 450,90 L 400,90 L 400,140 L 370,140 L 370,90 L 320,90 Z"
+       id="plus-sign"
+       fill="url(#orange-gradient)" />
+  </g>
+  <text 
+   x="256" 
+   y="480" 
+   font-family="Arial, Helvetica, Verdana, Tahoma, sans-serif, Segoe UI" 
+   font-size="60" 
+   font-weight="bold" 
+   text-anchor="middle" 
+   fill="url(#orange-gradient)">
+   Cracked
+</text>
+</svg>
