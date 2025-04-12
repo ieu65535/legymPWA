@@ -36,5 +36,10 @@
 - 由于使用该网站所造成的任何后果由使用者自负，与网站的作者和网络服务的提供者无关
 - 由于这是一个静态网站，该网站不会获取你的任何账户数据，但你的Authorization Token会缓存到本地
 - 如果你不希望在本地保存你的Authorization Token，请在使用结束后删除你的账号
-- 如果在使用过程中多次报错，可能是Authorization Token失效，可尝试删除账号并重新添加
-- 如果还是报错，可能是应用损坏，可以尝试删除应用并重新下载
+- 如果在使用过程中多次报错，可能是Authorization Token失效，请尝试删除账号并重新添加
+- 如果还是报错，可能是应用损坏，请以尝试删除应用并重新下载
+
+## 备用链接
+
+- [vercel节点](https://legym-pwa.vercel.app/)
+- [cloudflare节点](https://legym.pages.dev/)
